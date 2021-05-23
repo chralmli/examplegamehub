@@ -8,7 +8,7 @@
     </head>
     <body>
     <header>
-        <img src="images/GameHub_Logo.png" alt="logo" />
+        <img src="images/gamehub logo.png" alt="logo"/>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -17,22 +17,28 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="login.html">Login</a></li>
         </nav>
-        <form>
-                <input type="text" name="search"placeholder=""   />
-                <input type="submit" value="Search" />
-        </form>
+           <form>
+                <input type="text" name="search" placeholder="">
+                <input type="submit" value="Search">
+           </form>
      </header>
 
       <main>
          <section>
              <h1>Shopping Cart</h1>
          </section>
-         <img src="images/GameHub_spacewar.jpg" alt="travel in space" /> 
+         <img src="images/GameHub_spacewar.jpg" alt="travel in space"> 
          <h2> Space War Play Box</h2>
+
          <h2>Order summary</h2>
-             <label for="subtotal">Subtotal</label> <input type="299" value="299" />
-             <label for="Shipping fee">Shipping fee</label><input type="Free Shipping" value="Free Shipping" />
-             <label for="Total">Total</label> <input type="299,-" value="299,-" />
+             <label for="subtotal">Subtotal</label>
+             <input type="number" id="subtotal" value="299">
+             
+             <label for="shipping fee">Shipping fee</label>
+             <input type="text" value="Free Shipping">
+             <label for="Total">Total</label>
+              <input type="number" id="total" placeholder="299,-">
+
          <h2>Proceed to Checkout</h2>
          <hr>
          <h3>Accepted Payments Method</h3>
@@ -41,4 +47,6 @@
      <footer>Copyright &copy; GameHub.com</footer>
     </body>
 </html>
+     
+
      
