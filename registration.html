@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,28 +17,32 @@
                 <li><a href="sell.html">Sell</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="login.html">Login</a></li>
-            </ul>
         </nav>
-        <form>
-                <input type="text" name="search" placeholder="" />
-                <input type="submit" value="Search" />
-        </form>
+            <form>
+                <input type="text" name="search" placeholder="">
+                <input type="submit" value="Search">
+            </form> 
      </header>
        <main>
          <section>
              <h1>Create an Account</h1>
          </section>
              <h2>Email Address*</h2>
-                 <input type="email" value="" />
-           <label for="firstName">First Name*</label>
-                 <input type="text" name="firstName" id="firstName" value="" />
+                 <input type="email" value="">
+             <h2>First Name*</h2>
+                 <input type="text" name="firstname" id="firstName" value="">
              <h2>Last Name*</h2>
-                 <input type="Last Name"  value="" />
+                 <input type="Last Name"  value="">
              <h2>Create a Password*</h2>
-                 <input type="Create a Password" value="" />
+                 <label for="psw"></label>
+                   <input type="Create a Password" placeholder="" name="psw" id="psw"required>
              <h2>Re-type a Password*</h2>
-                 <input type="Re-type Password" value="" />
-                 <input type="Back" value="Back" /><input type="Register" value="Register" />
+                 <label for="psw-repeat"></label>
+                   <input type="password" placeholder="" name="psw-repeat" id="psw-repeat" required>
+                 <label for="back"></label>
+                    <input type="back" placeholder="Back" name="back">
+                 <label for="reg"></label>
+                   <input type="reg" placeholder="Register">
         </main>
            <footer>Copyright &copy; GameHub.com</footer>
       </body>
