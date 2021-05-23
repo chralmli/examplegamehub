@@ -23,29 +23,38 @@
                 <input type="submit" value="Search" />
         </form>
      </header>
-     <main>
+      <main>
         <section>
             <h1>Sell Sell Sell! Enter Game Details Below</h1>
         </section>
-        <form action="">
+        <div class="container">
+         <form action="">
             <h2>Game Title</h2>
-                <input type="title" />
+                <label for="text"></label>
+                <input type="text" name="Game Title" />
+
             <h2>Condition</h2>
-            <div>
                 <ul>
                     <li>Unopened</li>
                     <li>Good</li>
                     <li>Fair</li>
                     <li>Poor, but still works!</li>
                 </ul>
-            </div>
-            <h2>Image<input type="text" name="Upload File" value="Upload File" /></h2>
+
+            <h2>Image</h2>
+            <input type="" name="Upload File" value="Upload File">
+            
             <h2>Description</h2>
-                <input type="description" />
+               <label for="description"></label>
+                <textarea name="description" placeholder=""></textarea> />
+                
             <h2>Selling Price</h2>
-                <input type="price" />
+                <label for="price"></label>
+                <input type="price"  value="" />
             <h2>Send to market place</h2>
-        </form>
+                 <input type="submit" value="Send" placeholher="Send to market place" />
+         </form>
+        </div>
      </main>
     <footer>Copyright &copy; GameHub.com</footer>
   </body>
