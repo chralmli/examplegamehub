@@ -25,15 +25,21 @@
      </header>
        <main>
          <section>
-             <h1>Contact Us</h1>
+              <h1>Contact Us</h1>
          </section>
          <form action="">
              <h2>Your name</h2>
-                 <input type="text" name="Your name" />
+                 <label for="name"></label>
+                 <input type="text" id="name" placeholder="" />
+
              <h2>Email address</h2>
-                 <input type="text" name="Email address" />
+                 <label for="email"></label>
+                 <input type="text" placeholder="" name="email address" id="email" required />
              <h2>Enter your message here</h2>
-                 <textarea name="comments" cols="20" rows="4"></textarea>
+             
+                 <label for="message"></label>
+                 <textarea id="message" name="message" placeholder=""></textarea>
+                 
                  <input type="Send" value="Send" />
          </form>
        </main>
