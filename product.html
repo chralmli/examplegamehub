@@ -1,71 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Online Games Store" />
-        <title>Game Hub | Product</title>
-    </head>
-    <body>
-    <header>
-        <img src="images/GameHub_Logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product.html" class="active">Product</a></li>
-                <li><a href="sell.html">Sell</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
-        <form>
-                <input type="text" name="search" placeholder="">
-                <input type="submit" value="Search">
-        </form>
-     </header>
-     <main>
-         <section>
-             <h1>Product List</h1>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Online Games Store" />
+      <title>Game Hub | Product</title>
+   </head>
+   <body>
+      <div class="hero">
+         <header class="hero-header">
+            <div class="hero-logo-container">
+               <img src="images/GameHub_Logo.png" alt="logo" class="hero-logo">
+            </div>
+            <nav class="hero-navbar">
+               <ul class="hero-nav">
+                   <li class="nav-item"><a href="index.html">Home</a></li>
+                   <li class="nav-item"><a href="product.html" class="active">Product</a></li>
+                   <li class="nav-item"><a href="sell.html">Sell</a></li>
+                   <li class="nav-item"><a href="about.html">About</a></li>
+                   <li class="nav-item"><a href="login.html">Login</a></li>
+               </ul>
+           </nav>
+            <form class="search-bar">
+               <input type="text" name="text" class="search">
+               <input type="submit" name="submit" class="search-btn" value="Search">
+            </form>
+         </header>
+      </div>
+    
+     <main class="page-content">
+         <section class="heading-container">
+             <h1 class="page-heading">Product List</h1>
          </section>
          <hr>
-         <img src="images/GameHub_spacewar.jpg" alt="an RPG role-playing game">
-         <h2>Space Wars</h2>
-         <p>Now $16.55</p>
-            <button>Add to Cart</button>
-            <button>Info</button> 
-         <img src="images/GameHub_forgelegend.jpg" alt="travel in space">
+         <div class="row">
+            <div class="column">
+               <div class="game-img">
+                  <img src="images/GameHub_spacewar.jpg" alt="an RPG role-playing game" class="product-img">
+               </div>
+               <div class="title-container">
+                  <h2 class="game-title">Space Wars</h2>
+               </div>
+               <p class="price">Now $16.55</p>
+               <div class="game-btn-container">
+                  <button class="add-cart-btn">Add to Cart</button>
+                  <button class="info-btn">Info</button>
+               </div>
+               <div class="column"></div>
+               <div class="column"></div>
+               <div class="column"></div>
+            </div>
+         </div>
+          
+         <img src="images/GameHub_forgelegend.jpg" alt="travel in space" class="product-img">
          <h2>Forge Legend</h2>
-         <p>Now $20.85</p>
+         <p class="price">Now $20.85</p>
             <button>Add to Cart</button>
             <button>INFO</button>
-         <img src="images/GameHub_black.jpg" alt="mysterious agent">
+         <img src="images/GameHub_black.jpg" alt="mysterious agent" class="product-img">
          <h2>Forge Black</h2>
-         <p>Now $21.85</p>
+         <p class="price">Now $21.85</p>
             <button>Add to Cart</button>
             <button>Info</button>
-         <img src="images/GameHub_boxer.jpg" alt="a boxing game">
+         <img src="images/GameHub_boxer.jpg" alt="a boxing game" class="product-img">
          <h2>GameHub_boxer</h2>
-         <p>Now $17.80</p>
+         <p class="price">Now $17.80</p>
             <button>Add to Cart</button>
             <button>Info</button>
-         <img src="images/GameHub_pingpong.jpg" alt="family game">
+         <img src="images/GameHub_pingpong.jpg" alt="family game" class="product-img">
          <h2>PingPong</h2>
-         <p>Now $21.99</p>
+         <p class="price">Now $21.99</p>
             <button>Add to Cart</button>
             <button>Info</button>
-         <img src="images/GameHub_superduper.jpg" alt="an educational game">
+         <img src="images/GameHub_superduper.jpg" alt="an educational game" class="product-img">
          <h2>Super Duper</h2>
-         <p>Now $26.25</p>
+         <p class="price">Now $26.25</p>
             <button>Add to Cart</button>
             <button>Info</button>
-         <img src="images/GameHub_assassin.jpg" alt="live action game">
+         <img src="images/GameHub_assassin.jpg" alt="live action game" class="product-img">
          <h2>Assassin</h2>
-         <p>Now $29.85</p>
+         <p class="price">Now $29.85</p>
             <button>Add to Cart</button>
             <button>Info</button>
-         <img src="images/GameHub_furious.jpg" alt="a shadow game">
+         <img src="images/GameHub_furious.jpg" alt="a shadow game" class="product-img">
          <h2>Furious</h2>
-         <p>Now $32.35</p>
+         <p class="price">Now $32.35</p>
             <button>Add to Cart</button>
             <button>Info</button>
      </main>
